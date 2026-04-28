@@ -164,8 +164,8 @@ public class OrderedSet<T> : ICollection<T>, ICollection, IReadOnlyCollection<T>
     }
 #endif
 
-        /// <inheritdoc/>
-        bool ICollection<T>.IsReadOnly => false;
+    /// <inheritdoc/>
+    bool ICollection<T>.IsReadOnly => false;
     /// <inheritdoc/>
     bool ICollection.IsSynchronized => false;
     /// <inheritdoc/>
