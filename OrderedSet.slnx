@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="OrderedSet.Tests/OrderedSet.Tests.csproj" />
+  <Project Path="OrderedSet/OrderedSet.csproj" />
+</Solution>
