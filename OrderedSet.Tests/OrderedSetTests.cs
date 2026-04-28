@@ -4,6 +4,16 @@ namespace ExtendedCollections.Tests;
 
 public class OrderedSetTests {
     [Fact]
+    public void ReadmeTest() {
+        OrderedSet<string> set = new();
+        set.Add("pizza");
+        set.Add("hotdog");
+        set.Add("pizza");
+        string setString = string.Join(", ", set);
+        setString.ShouldBe("pizza, hotdog");
+    }
+
+    [Fact]
     public void ConstructorTest() {
         OrderedSet<string> set = new();
         set.Count.ShouldBe(0);
